@@ -24,3 +24,18 @@ Depending on your dataset, it may take a while to process. Once it is done, you'
 **Note, you need to compute the norm values for this dataset using `/data/calculate_norm`, and provide them to the AST feature extraction process, see `constants`**
 
 From this dataset, you can further train the model using `/scripts/train.py`, and evaluate it using `/scripts/evaluate.py`. A helper method for single song prediction is provided in `/scripts/predict_song.py`. Note that all files provided may need modifications for your usecase, the code provided is what has been used in our particular project, with slight modification. 
+
+### AST
+The AST model was released in 2021, showing high performance for general audio classification. 
+
+<img src="./materials/ast.png" >
+<details>
+<summary>BibTeX</summary>
+
+```bibtex
+@article{gong2021ast,
+  title={AST: Audio Spectrogram Transformer},
+  author={Gong, Yuan and Chung, Yu-An and Glass, James},
+  journal={arXiv preprint arXiv:2104.01778},
+  year={2021}
+}
