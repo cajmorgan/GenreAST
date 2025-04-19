@@ -1,7 +1,9 @@
 
 # GenreAST
 ## Background
-GenreAST is a fine-tuned version of Audio Spectrogram Transformer (AST) for predicting music genres based on their audio characteristics. This model was used for research purposes in my BS paper *Imbalance Data and Transfer Learning in Music Genre Classification*  [LINK]. The weights are available [here](https://drive.google.com/drive/folders/1jS1banwYNQT5yFDsLxrC62dMI4z8Quvq?usp=sharing). 
+GenreAST is a fine-tuned version of Audio Spectrogram Transformer (AST) for predicting music genres based on their audio characteristics. This model was used for research purposes in my BS paper *Imbalance Data and Transfer Learning in Music Genre Classification*  [LINK]. 
+
+The weight checkpoints are available [here](https://drive.google.com/drive/folders/1jS1banwYNQT5yFDsLxrC62dMI4z8Quvq?usp=sharing). 
 
 
 Evidently, the model performs surprisingly well for the task of predicting music genres from short audio files of 10 seconds. While music genre prediction may not have that many practical applications, this model can be used as a base model for many other music-related tasks. For more information, please read the paper. 
