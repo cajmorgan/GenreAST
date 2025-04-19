@@ -7,7 +7,9 @@ GenreAST is a fine-tuned version of Audio Spectrogram Transformer (AST) for pred
 Evidently, the model performs surprisingly well for the task of predicting music genres from short audio files of 10 seconds. While music genre prediction may not have that many practical applications, this model can be used as a base model for many other music-related tasks. For more information, please read the paper. 
 
 ### Usage
-Under scripts, we've included multiple methods for building a pipeline with this model. Once you have your dataset, you'll need to structure it in `/data/raw` according to the following image. <img src="./materials/folder_structure.png" width="200">
+Under scripts, we've included multiple methods for building a pipeline with this model. Once you have your dataset, you'll need to structure it in `/data/raw` according to the following image. 
+
+<img src="./materials/folder_structure.png" width="200">
 
 Note that without any further training, the weights only work for the above classes, but you can fine-tune the model from the given checkpoints for your selection of classes. 
 
