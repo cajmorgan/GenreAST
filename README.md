@@ -1,5 +1,18 @@
 
 # GenreAST
+
+## Abstract
+This project investigates the performance and effects of varying degrees of data imbalance and the role of transfer learning in music
+genre classification (MGC), using a relatively small, imbalanced music dataset labeled by domain experts. We refine the prominent deep
+learning model Audio Spectrogram Transformer (AST), under these
+constraints. Our results show that the refined model performs exceptionally well in the task of MGC, outperforming results of previous
+studies. Notably, we observe that different levels of class imbalance
+have minimal effect on performance, contrasting previous research
+based on non-transformer models, which reports improvements of
+minority class predictions through balancing techniques. These findings suggest that refining a pre-trained AST model on small and imbalanced datasets, can still yield prominent results. Furthermore, we
+suggest that there exists indications that the AST model may be suitable as a foundational model for a broader range of music and audio
+related tasks, both in research and practical applications.
+
 ## Background
 GenreAST is a fine-tuned version of Audio Spectrogram Transformer (AST) for predicting music genres based on their audio characteristics. This model was used for research purposes in my BSc paper [*Imbalance Data and Transfer Learning in Music Genre Classification*](https://www.diva-portal.org/smash/record.jsf?dswid=-9811&pid=diva2%3A1963184&c=1&searchType=SIMPLE&language=en&query=caj+norlen&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=all).
 
