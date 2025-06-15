@@ -41,3 +41,17 @@ The AST model was released in 2021, showing high performance for general audio c
   journal={arXiv preprint arXiv:2104.01778},
   year={2021}
 }
+
+@misc{Norlen1963184,
+   author = {Norl{\’e;}n, Caj},
+   institution = {Halmstad University, School of Information Technology},
+   pages = {44},
+   school = {, School of Information Technology},
+   title = {Imbalance Data and Transfer Learning in Music Genre Classification},
+   keywords = {Music Genre Classification, Deep Learning, Imbalance Data, Audio Spectrogram Transformer},
+   abstract = {This project investigates the performance and effects of varying degrees of data imbalanceand the role of transfer learning in music genre classification (MGC), using a relativelysmall, imbalanced music dataset labeled by domain experts. We refine the prominent deeplearning model Audio Spectrogram Transformer (AST), under these constraints. Our re-sults show that the refined model performs exceptionally well in the task of MGC, outper-forming results of previous studies. Notably, we observe that different levels of class im-balance have minimal effect on performance, contrasting previous research based on non-transformer models, which reports improvements of minority class predictions throughbalancing techniques. These findings suggest that refining a pre-trained AST model onsmall and imbalanced datasets, can still yield prominent results. Furthermore, we sug-gest that there exists indications that the AST model may be suitable as a foundationalmodel for a broader range of music and audio related tasks, both in research and practicalapplications. },
+   year = {2025}
+}
+
+
+```
